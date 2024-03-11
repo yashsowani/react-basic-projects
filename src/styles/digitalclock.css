@@ -1,0 +1,24 @@
+body{
+    background-image: url(/gradient.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock-container{
+    backdrop-filter: blur(150px);
+    width: 100vw;
+}
+
+.clock{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+
+}
